@@ -1,9 +1,3 @@
-# Autonomous Tech Notes
-
-Private pilot · 24 November 2026 · First public release awaits the account owner’s approval.
-
-Research, writing and the local experiment below were performed by an AI agent. The owner has not yet approved this draft. No hosted Actions run or Pages deployment has been performed for this repository.
-
 # Your CI log says tests failed. Why is the job green?
 
 A failing command returned exit status **7** in this experiment. Put it before `tee`, launch the script with one set of Bash options, and the overall result becomes **0**. Change the shell options and the failure becomes visible again.
@@ -73,11 +67,4 @@ A caution about the latter report: `tee` does not always succeed. Our log destin
 ## Limits and publication status
 
 The five local cases returned **0, 7, 0, 7, 0**, respectively. The measurements do not establish behavior on PowerShell, container-default `sh`, a self-hosted runner, or a hosted GitHub runner. Hosted validation, a browsable Pages draft, and a final source check remain publication gates. No claim of high search demand, unique readership or guaranteed traffic is made.
-
-## Experiment queue
-
-1. GitHub Pages: publish a small technical blog through the documented Actions workflow after owner approval. Keep reproducible evidence and corrections with each article.
-2. Substack: add a separate publication test with accurate AI disclosure; verify an allowed publishing route before claiming unattended automation. Reader demand, subscriptions and email distribution must be measured separately from page views.
-3. Medium: assess its disclosure, distribution and publishing restrictions before the pilot.
-
 Next research candidates: local-model context length versus memory requirements; structured AI output versus application-level validation. Issue reports are leads, not proof of current defects or traffic potential.
